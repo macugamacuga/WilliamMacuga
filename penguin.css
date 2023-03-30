@@ -217,7 +217,7 @@
     top: 35%;
     left: 5%;
     transform-origin: top left; 
-    transform: rotate(130deg) scaleX(-1);
+    transform: rotate(130deg) scaleX(-1); 
     animation: 3s linear infinite wave;
   }
   
@@ -268,4 +268,37 @@
     z-index: 3;
     position: absolute;
     margin-top: -58px;
+
   }
+  .confirmation {
+      margin-top: 50px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 300px;
+      height: 300px;
+    text-align: center;
+   
+
+ }
+ .no{
+ 
+  
+ }
+ .no:hover {
+     
+     /* animation: move 0s linear; */
+      
+     transform:translateY(-40px)translateX(-100px);
+ }
+
+ @keyframes move {
+  10%{
+    transform: translateY(-50px)translateX(-90px);
+
+  }
+  20%{
+    transform:translateY(-30px)translateX(-80px);
+  }
+  
+
+ }
